@@ -11,7 +11,10 @@ export default function LotSold() {
       <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-5">
         {ProductData.map((i) => (
           <>
-            <li key={i.id} className="p-[10px] bg-white rounded-[10px] ">
+            <li
+              key={i.id}
+              className="p-[10px] bg-white rounded-[10px] shadow"
+            >
               <div className="p-[10px] flex h-[280px] flex-col bg-white relative pt-[25px]">
                 <LotSoldBtn />
 

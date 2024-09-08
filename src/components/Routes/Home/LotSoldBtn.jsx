@@ -7,7 +7,7 @@ export default function LotSoldBtn() {
   return (
     <button
       onClick={() => setIsLiked(!isLiked)}
-      className="hover:shadow-lg hover:border-gray-300 lg:leading-normal p-2 rounded-md absolute right-0 top-0"
+      className="hover:shadow-lg hover:border hover:border-gray-200 lg:leading-normal p-2 rounded-md absolute right-0 top-0"
     >
       {isLiked ? (
         <IoMdHeart size={20} className="text-red-600" />
