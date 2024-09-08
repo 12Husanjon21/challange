@@ -22,8 +22,8 @@ export default function Main() {
           >
             <input
               type="text"
-              placeholder="Qidirish"
-              className="outline-none px-5 bg-White rounded-l-lg border border-Secondary"
+              placeholder="Maxsulotlarni izlash"
+              className="outline-none px-5 py-3 xl:min-w-[396px] bg-White rounded-l-lg border border-Secondary max-w-[396px]"
             />
             <button className="py-[13px] px-[18px] border border-MainColor bg-MainColor border-none rounded-r-lg text-white">
               <IoSearch size={18} />

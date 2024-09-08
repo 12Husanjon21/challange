@@ -30,4 +30,16 @@
     background: linear-gradient(270.00deg, rgba(77, 94, 246, 0.2), rgba(246, 77, 77, 0.2) 100%);
   }
 
+  .footer_list_item {
+    @apply text-Main font-[653]
+  }
+
+  .footer_mobile_bg {
+    /* Button/gradient 20 */
+    background: linear-gradient(270.00deg, rgba(77, 94, 246, 0.2), rgba(246, 77, 77, 0.2) 100%);
+  }
+
+  .footer_divider {
+    background: linear-gradient(270.00deg, rgba(77, 94, 246, 0.2), rgba(246, 77, 77, 0.2) 100%);
+  }
 }

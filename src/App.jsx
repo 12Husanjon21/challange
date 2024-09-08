@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { Footer, Header, Home, ProductView } from "./components";
+import { Cart, Footer, Header, Home, ProductView } from "./components";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/:id" element={<ProductView />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       </main>
       <Footer />

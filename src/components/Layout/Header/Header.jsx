@@ -27,7 +27,7 @@ export default function Header() {
         <form onSubmit={(e) => e.preventDefault()} className="flex rounded-lg">
           <input
             type="text"
-            placeholder="Qidirish"
+            placeholder="Maxsulotlarni izlash"
             className="outline-none px-5 w-full bg-White rounded-l-lg border border-Secondary"
           />
           <button className="py-[13px] px-[18px] border border-MainColor bg-MainColor border-none rounded-r-lg text-white">
