@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="max-w-[1200px] mx-auto min-h-screen md:pt-[140px] pt-[160px]">
+      <main className="max-w-[1270px] px-5 mx-auto min-h-screen md:pt-[140px] pt-[160px]">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/:id" element={<ProductView />} />

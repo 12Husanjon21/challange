@@ -8,12 +8,12 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <>
-      <header className="bg-White header_shadow hidden md:block fixed w-full">
+      <header className="z-40 bg-White header_shadow hidden md:block fixed w-full">
         <Top />
         <Main />
       </header>
 
-      <header className="md:hidden fixed w-full bg-Secondary p-5">
+      <header className="z-40 md:hidden fixed w-full bg-Secondary p-5">
         <div className="flex items-center py-5">
           <button className="text-[#323232]">
             <IoMenu size={18} />

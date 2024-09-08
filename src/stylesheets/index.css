@@ -15,6 +15,24 @@
     box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.12);
   }
 
+  li {
+    list-style: none;
+  }
+
+  .home_slider_left_btn {
+    @apply -ml-28
+  }
+
+  .home_slider_right_btn {
+    @apply -mr-28
+  }
+
+  @media screen and (max-width: 1375px) {
+    .home_slider_left_btn, .home_slider_right_btn {
+      margin: 0;
+    }
+  }
+
   .button {
     /* medium 16 */
     color: rgb(255, 255, 255);
