@@ -1,12 +1,17 @@
-import { Button } from "flowbite-react";
-import { useState } from "react";
+import { Route, Routes } from "react-router-dom";
+import { Footer, Header, Home, ProductView } from "./components";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <Button className="bg-red-500">btn</Button>
+      <Header />
+      <main className="max-w-[1200px] mx-auto min-h-screen md:pt-[140px] pt-[160px]">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/:id" element={<ProductView />} />
+        </Routes>
+      </main>
+      <Footer />
     </>
   );
 }
