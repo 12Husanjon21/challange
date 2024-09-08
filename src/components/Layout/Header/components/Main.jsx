@@ -4,8 +4,12 @@ import { IoSearch } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { showModal } from "../../../../store/LoginSlice";
 
 export default function Main() {
+  const dispatch = useDispatch();
+
   return (
     <div className="max-w-[1270px] mx-auto px-5 pt-[13px] pb-[11px] flex items-center justify-between">
       <div>
@@ -39,7 +43,10 @@ export default function Main() {
             <MdOutlineShoppingCart size={18} />
           </button>
         </div>
-        <button className="button py-[11px] px-5 rounded-[10px] transition-all">
+        <button
+          onClick={() => dispatch(showModal())}
+          className="button py-[11px] px-5 rounded-[10px] transition-all"
+        >
           Kirish
         </button>
       </div>
