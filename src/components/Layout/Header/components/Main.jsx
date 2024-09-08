@@ -3,12 +3,15 @@ import { IoMenu } from "react-icons/io5";
 import { IoSearch } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import { MdOutlineShoppingCart } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 export default function Main() {
   return (
     <div className="max-w-[1270px] mx-auto px-5 pt-[13px] pb-[11px] flex items-center justify-between">
       <div>
-        <img src="/Logo.svg" alt="logo" />
+        <Link to="/" className="block">
+          <img src="/Logo.svg" alt="logo" />
+        </Link>
       </div>
       <div className="flex items-center gap-[50px]">
         <div className="flex items-center gap-20">
